@@ -19,6 +19,7 @@ FREETYPELIBS = -lfontconfig -lfreetype -lXrender -lX11 -L/git/xorg/libxft/src/.l
 FREETYPEINC = /usr/include/freetype2 -I/git/xorg/libxft/include
 # OpenBSD (uncomment)
 #FREETYPEINC = ${X11INC}/freetype2
+#MANPREFIX = ${PREFIX}/man
 
 # includes and libs
 INCS = -I${X11INC} -I${FREETYPEINC}
