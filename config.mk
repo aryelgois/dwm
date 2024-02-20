@@ -15,8 +15,8 @@ XINERAMALIBS  = -lXinerama
 XINERAMAFLAGS = -DXINERAMA
 
 # freetype
-FREETYPELIBS = -lfontconfig -lfreetype -lXrender -lX11 -L/git/xorg/libxft/src/.libs -l:libXft.a
-FREETYPEINC = /usr/include/freetype2 -I/git/xorg/libxft/include
+FREETYPELIBS = -lfontconfig -lXft
+FREETYPEINC = /usr/include/freetype2
 # OpenBSD (uncomment)
 #FREETYPEINC = ${X11INC}/freetype2
 #MANPREFIX = ${PREFIX}/man
